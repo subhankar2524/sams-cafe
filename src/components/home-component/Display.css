@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.wrapper {
+    position: relative;
+    padding: 5% 10% 5% 10%;
+    overflow: hidden; /* Ensures no content overflows */
+}
+
+.wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../assets/images/display-bg.jpg');
+    background-size: 100%;
+    filter: blur(10px); /* Apply blur to background only */
+    z-index: -1; /* Places the pseudo-element behind content */
+}
+
+.wrapper h1{
+    font-family: "Dancing Script", serif;
+    font-size: 50px;
+    font-weight: 900;
+}

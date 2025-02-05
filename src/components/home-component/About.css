@@ -1,0 +1,50 @@
+.outer-wrapper{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url('https://images.unsplash.com/photo-1598237601465-af66b7475e92?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.inner-wrapper{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+
+.box{
+    width: 50vh;
+    height: 100%;
+    padding: 20px;
+}
+
+.left{
+    background-image: url('../../assets/images/sam-father.jpg');
+    background-size: cover;
+    border-radius:  30px 0 0 30px;
+}
+
+.right{
+    background-color: #262626;
+    border-radius:  0 30px 30px 0;
+    font-weight: 200;
+}
+
+.right p, h2{
+    text-align: end;
+}
+.index{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.index .line{
+    height: 200px;
+    width: 3px;
+    background-color: white;    
+    border-radius: 50px;
+    margin-bottom: 10px;
+}

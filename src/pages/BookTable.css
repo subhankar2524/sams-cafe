@@ -1,0 +1,58 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+}
+
+.booking-wrapper{
+    height: 100vh;
+backdrop-filter: blur(5px); /* Adjust the pixel value for blur amount */
+    -webkit-backdrop-filter: blur(5px); 
+ }
+
+.table-container {
+    /* border: 2px dashed blue; */
+    text-align: center;
+    margin-bottom: 20px;
+    flex: 1 1 48%; 
+    /* This ensures two tables fit per row */
+  }
+  
+  .table-list {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .table-grid {
+
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .seat {
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .seat.selected {
+    background-color: blue;
+  }
+  
+  .table {
+    width: 40px;
+    height: 40px;
+    background-color: brown;
+  }
+  
