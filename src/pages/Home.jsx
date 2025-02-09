@@ -7,7 +7,7 @@ import About from '../components/home-component/About'
 const Home = () => {
   return (
     <>
-    <NavBar />
+      <NavBar />
       <Carousel />
       <About /> 
       <Display />
